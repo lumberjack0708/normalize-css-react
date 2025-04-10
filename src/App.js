@@ -70,7 +70,7 @@ function App() {
   return (
     <Container>
       <Card>
-        <Text color='blue'>hw4</Text>
+        <Text color='blue'>懶覺</Text>
       </Card>
     </Container>
   );
