@@ -60,13 +60,17 @@ const Card = styled.div`
   }
   `;
 
+const Text = styled.h1`
+  font-size: 136px;
+  font-weight: bold;
+  color: ${props => props.color || 'pink'};
+  `;
+
 function App() {
   return (
     <Container>
       <Card>
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to React with Emotion!</p> */}
-        <h1>懶覺</h1>
+        <Text color='blue'>hw4</Text>
       </Card>
     </Container>
   );
