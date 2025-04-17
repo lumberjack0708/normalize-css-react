@@ -82,7 +82,7 @@ const SmallTitle = styled.h2`
 `;
 const ButtonContainer = styled.div`
   display: flex;
-  flex-direction: flex; /* 垂直排列按鈕 */
+  flex-direction: flex;  /* 水平排列 */
   margin-top: 20px;      /* 與上方間隔 */
   button {
     margin: 6px 0;       /* 每個按鈕間隔 */
